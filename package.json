@@ -1,0 +1,22 @@
+{
+  "name": "@idirdev/localssl",
+  "version": "1.0.0",
+  "description": "Generate self-signed SSL certificates for local development",
+  "main": "src/index.js",
+  "author": "idirdev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idirdev/localssl.git"
+  },
+  "keywords": [],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/localssl.test.js"
+  },
+  "bin": {
+    "localssl": "./bin/cli.js"
+  }
+}
