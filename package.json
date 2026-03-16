@@ -18,5 +18,9 @@
   },
   "bin": {
     "localssl": "./bin/cli.js"
+  },
+  "homepage": "https://github.com/idirdev/localssl",
+  "bugs": {
+    "url": "https://github.com/idirdev/localssl/issues"
   }
 }
